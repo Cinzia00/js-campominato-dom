@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container-btn-play{
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    color: blue;
+}
+
+.btn-play {
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.griglia {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.griglia > * {
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	font-size: 25px;
+    aspect-ratio: 1;
+}
+
+.bg-blue {
+    background-color: blue;
+}
