@@ -25,6 +25,7 @@
     padding: 10px;
     margin: 0 auto;
     text-align: center;
+    color: blue;
 }
 
 .griglia {
@@ -44,4 +45,15 @@
 
 .bg-blue {
     background-color: blue;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+#punteggio {
+    display: ;
+    right: 0;
+    bottom: 0;
+    font-size: 30px;
 }
